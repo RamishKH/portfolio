@@ -295,6 +295,8 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
+
 /* Row */
 
 	.row {
@@ -2211,6 +2213,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
+				border-radius: 25px;
 				width: 100%;
 			}
 
@@ -2717,6 +2720,21 @@ input, select, textarea {
 
 /* Tiles */
 
+/* MY changes*/
+article#fwid {
+    width: 100%;
+}
+
+/* section.projFloat{
+
+	width: 50%;
+	float: left;
+}
+section.projFloat > div.content{
+
+	width: 100%;
+} */
+/* --- */
 	.tiles {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3021,7 +3039,7 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .content {
-				width: 60%;
+				width: 50%;
 			}
 
 		}
@@ -3033,7 +3051,7 @@ input, select, textarea {
 			}
 
 			.spotlights > section > .content {
-				width: 55%;
+				width: 50%;
 			}
 
 		}
@@ -3516,6 +3534,9 @@ input, select, textarea {
 
 		#banner.style6:after {
 			background-color: #87c5a4;
+		}
+		#banner.style7:after {
+			background-color: #ffd4f900;
 		}
 
 		body.is-preload #banner:after {
