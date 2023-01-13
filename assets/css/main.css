@@ -1779,6 +1779,10 @@ input, select, textarea {
 		margin-bottom: 2em;
 	}
 
+	header.proj {
+		width: 100%;
+	}
+
 		header.major > :first-child {
 			margin-bottom: 0;
 			width: calc(100% + 0.5em);
@@ -3029,7 +3033,7 @@ article#fwid {
 			}
 
 			.spotlights > section > .content {
-				width: 60%;
+				width: 100%;
 			}
 
 		}
@@ -3041,7 +3045,7 @@ article#fwid {
 			}
 
 			.spotlights > section > .content {
-				width: 55%;
+				width: 100%;
 			}
 
 		}
