@@ -2724,16 +2724,6 @@ input, select, textarea {
 article#fwid {
     width: 100%;
 }
-
-/* section.projFloat{
-
-	width: 50%;
-	float: left;
-}
-section.projFloat > div.content{
-
-	width: 100%;
-} */
 /* --- */
 	.tiles {
 		display: -moz-flex;
@@ -3039,7 +3029,7 @@ section.projFloat > div.content{
 			}
 
 			.spotlights > section > .content {
-				width: 50%;
+				width: 60%;
 			}
 
 		}
@@ -3051,7 +3041,7 @@ section.projFloat > div.content{
 			}
 
 			.spotlights > section > .content {
-				width: 50%;
+				width: 55%;
 			}
 
 		}
